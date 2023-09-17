@@ -219,6 +219,7 @@ if [ "$ID" == "centos" ]; then
 		sudo service iptables save
 		sudo service iptables restart
   
+ clear
 fi
 
 	wget -N "https://github.com/OpenGamePanel/Easy-Installers/raw/master/Linux/CentOS/ogp_panel_rpm-1.0.0-1.noarch.rpm" -O "ogp_panel.rpm"
