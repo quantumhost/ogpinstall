@@ -218,13 +218,7 @@ if [ "$ID" == "centos" ]; then
 		sudo iptables -I INPUT 5 -i eth0 -p tcp -m tcp --dport 443 -j ACCEPT
 		sudo service iptables save
 		sudo service iptables restart
-
-	
-clear
-echo "Qauntum Host INC"
-echo "OGP panel has setuped successful ! "
-echo "For any Problem visit our Site ou our Discord link : https://discord.gg/U5BudehP"  
-
+  
 fi
 
 	wget -N "https://github.com/OpenGamePanel/Easy-Installers/raw/master/Linux/CentOS/ogp_panel_rpm-1.0.0-1.noarch.rpm" -O "ogp_panel.rpm"
@@ -235,3 +229,10 @@ fi
 	sudo cat /root/ogp_panel_mysql_info
 
 fi
+	
+clear
+echo "Qauntum Host INC"
+echo "OGP panel has setuped successful ! "
+echo "For any Problem visit our Site ou our Discord link : https://discord.gg/U5BudehP"  
+
+
